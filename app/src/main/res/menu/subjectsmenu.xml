@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Check course code"
+        android:id="@+id/m2"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Books Library"
+        android:id="@+id/m1"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Give Feedback"
+        app:showAsAction="never"
+        android:id="@+id/m6"
+        android:icon="@drawable/ic_baseline_feedback_24"
+        />
+    <item
+        android:title="Follow Us"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:id="@+id/m5"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        />
+
+    <item
+        android:title="More Apps"
+        android:id="@+id/m3"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="About Us"
+        android:id="@+id/m4"
+        app:showAsAction="never"
+        />
+</menu>

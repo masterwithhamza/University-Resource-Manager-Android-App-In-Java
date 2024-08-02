@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_CourseCodes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="ENG101\t\t	English Structure
+\nENG102\t\t	Introduction to Literature
+\nENG103\t\t	Introduction to Linguistics
+\nSS118\t\t  	Pakistan Studies
+\nENG104\t\t	English Communication Skills
+\nENG105\t\t	History of English Literature-I
+\nENG106\t\t	Phonetics in English and Phonology
+\nSS108\t\t 	Islamic Studies
+\nENG201\t\t	Technical Report Writing
+\nENG202\t\t	History of English Literature-II
+\nENG203\t\t	Introduction to Morphology and Syntax
+\nCS100\t\t 	Introduction to Computers
+\nENG204\t\t	Advanced Academic Reading and Writing
+\nENG206\t\t	Semantics and Pragmatics
+\nENG207\t\t	Poetry-I
+\nENG208\t\t	Prose
+\nSS221\t\t 	Human Rights and Citizenship
+\nENG302\t\t	Literary Criticism
+\nENG303\t\t	Novel-I
+\nENG304\t\t	Drama-I
+\nENG306\t\t	English Language Teaching
+\nENG307\t\t	Visionary Discourse
+\nENG310\t\t	Psycholinguistics
+\nENG308\t\t	Drama-II
+\nENG309\t\t	Poetry-II
+\nENG312\t\t	Stylistics
+\nENG401\t\t	American Literature
+\nENG405\t\t	World Literature
+\nSS401\t\t 	Research Methodology in Literature and Linguistics
+\nENG402\t\t	Translation Theory and Literary Studies
+\nENG403\t\t	Novel-II
+\nENG407\t\t	Literary Theory
+\nENG404\t\t	Critical Discourse Analysis
+\nENG406\t\t	Postmodern Literature
+\nENG408\t\t	Sociolinguistics
+" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MLT_CourseCodes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="LT107\t\t	Biochemistry-I
+\nLT102\t\t	Human Physiology-I
+\nLT103\t\t	Human Anatomy-I
+\nSS104\t\t	English-I
+\nSS108\t\t	Islamic Studies
+\nCS100\t\t	Introduction to computing
+\nLT117\t\t	Biochemistry-II
+\nLT112\t\t	Human Physiology-II
+\nLT113\t\t	Human Anatomy-II
+\nSS203\t\t	English-II
+\nSS118\t\t	Pak Studies
+\nLT207\t\t	Medical Microbiology-I
+\nLT201\t\t	General Pathology-I
+\nLT202\t\t	General Pharmacology-I
+\nSS211\t\t	English-III
+\nLT203\t\t	Clinical Bacteriology
+\nLT204\t\t	Hematology-I
+\nLT205\t\t	Human Genetics
+\nSS211\t\t	Communication Skills
+\nLT217\t\t	Medical Microbiology-II
+\nLT220\t\t	General Pharmacology-II
+\nLT211\t\t	General Pathology-II
+\nLT212\t\t	RBC Disorders
+\nLT213\t\t	Clinical Virology and Mycology
+\nLT214\t\t	Chemical Pathology
+\nLT215\t\t	Behavioral Sciences
+\nLT216\t\t	Hematology-II
+\nLT301\t\t WBC and Platelets Disorders
+\nLT302\t\t	Histopathology
+\nMT210\t\t	Biostatistics	3+0	MB105
+\nLT304\t\t	Clinical Parasitology
+\nLT305\t\t	Clinical Pathology
+\nLT306\t\t	Biotechnology
+\nLT307\t\t	Medical Laboratory Instrumentation
+\nLT346\t\t	Bioinformatics
+\nLT309\t\t	Immunology and Serology
+\nSS401\t\t	Research Methodology and Professional Ethics
+\nLT311\t\t	Blood Banking
+\nLT312\t\t	Advances in Medical Laboratory Technology
+\nLT401\t\t	Medical Laboratory Management Skills
+\nLT402\t\t	Fundamentals of Infection Control
+\nLT403\t\t	Molecular Biology
+\nLT404\t\t	Epidemiology
+\nLT405\t\t	Systemic Diagnostic Bacteriology
+\nLT410\t\t	Cytology and Cytogenetics
+\nLT499\t\t	Research Project
+\nLT490\t\t	Seminar
+\nLT408\t\t	Medical Sociology
+\nLT409\t\t	Bioethics
+" />
+    </LinearLayout>
+</ScrollView>

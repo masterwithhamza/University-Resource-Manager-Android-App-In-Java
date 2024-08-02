@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/gpa_Fragment2">
+
+
+    <fragment
+        android:id="@+id/event_fragment2"
+        android:name="com.hrcoder.HRKINGcoderabasynianshub.event_fragment"
+        android:label="event_fragment" />
+    <fragment
+        android:id="@+id/gpa_Fragment2"
+        android:name="com.hrcoder.HRKINGcoderabasynianshub.gpa_Fragment"
+        android:label="fragment_gpa_"
+        tools:layout="@layout/fragment_gpa_" />
+    <fragment
+        android:id="@+id/pp_fragment2"
+        android:name="com.hrcoder.HRKINGcoderabasynianshub.pp_fragment"
+        android:label="pp_fragment" />
+</navigation>

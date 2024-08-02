@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HND_CourseCodes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="HN102\t\t	Fundamentals of Human Nutrition
+\nHN103\t\t	Essentials of Food Science and Technology
+\nMT100/ PSY103\t\t	Basic Mathematics/Fundamentals of Biology
+\nSS104\t\t	English-I (Functional English)
+\nHN105\t\t	Introductory Biochemistry
+\nSS118\t\t	Pakistan Studies
+\nHN109\t\t	Macronutrients in Human Nutrition
+\nSS203\t\t	English-II
+\nSS108\t\t	Islamic Studies/Ethics
+\nHN106\t\t	Human Anatomy
+\nHN107\t\t	Human Physiology-I
+\nSS216 I\t\t	FunIntroduction to of Sociology
+\nHN108\t\t	Micronutrients in Human Nutrition
+\nHN114\t\t	Human Physiology-II
+\nSS211\t\t	English-III
+\nHN205\t\t	Introductory Molecular Genetics
+\nHN204\t\t	Food Microbiology
+\nHN104\t\t	Food Safety and Quality Management
+\nMT210\t\t	Bio-Statistics
+\nCS100\t\t	Introduction to Computing
+\nHN208\t\t	Assessment of Nutritional Status
+\nHN209\t\t	Nutrition Through the Life Cycle
+\nHN201\t\t	General Pathology
+\nHN207\t\t	Food Analysis
+\nHN301\t\t	Dietetics-I
+\nHN302\t\t	Nutrition and Psychology
+\nHN303\t\t	Nutritional Education and Awarenes
+\nHN304\t\t	Meal Planning and Management
+\nHN305\t\t	Public Health Nutrition
+\nHN306\t\t	Food and Drug Laws
+\nHN311\t\t	Dietetics-II
+\nHN312\t\t	Functional Foods and Nutraceuticals
+\nHN313\t\t	Nutrition Through Social Protection
+\nHN314\t\t	Sports Nutrition
+\nHN315\t\t	Infant and Young Child Feeding
+\nHN316\t\t	Clinical Biochemistry
+\nHN401\t\t	Dietetics-III
+\nHN402\t\t	Global Food Issues
+\nHN403\t\t	Research Methods in Nutrition
+\nHN404\t\t	Nutritional Practices in Clinical Care
+\nHN405\t\t	Medical Nutrition Therapy
+\nHN499\t\t	Internship/Project	0+6	None
+\nMB437\t\t	Microbial Pathogenesis	2+1	None
+\nHN412\t\t	Nutrition Policies and Programs
+\nHN413\t\t	Food Service Management
+\nHN414\t\t	Nutritional Immunology
+" />
+    </LinearLayout>
+</ScrollView>

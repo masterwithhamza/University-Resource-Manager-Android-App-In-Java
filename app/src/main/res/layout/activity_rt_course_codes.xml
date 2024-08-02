@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RT_CourseCodes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="RT101\t\t	Biochemistry-I
+\nRT102\t\t		Human Physiology-I
+\nRT103\t\t		Human Anatomy-I
+\nSS104\t\t		English-I
+\nSS118\t\t		Pak studies
+\nCS100\t\t		Introduction to Computing
+\nRT111\t\t		Biochemistry-II
+\nRT112\t\t		Human Physiology-II
+\nRT113\t\t		Human Anatomy-II
+\nSS203\t\t		English-II
+\nSS108\t\t		Islamic studies
+\nRT201\t\t		Regional and Radiological Anatomy-I
+\nRT202\t\t		General Radiology
+\nRT203\t\t		Radiation Sciences and Technology
+\nRT204\t\t		General Pathology
+\nRT205\t\t		General Pharmacology
+\nSS211\t\t		English-III
+\nRT210\t\t		Clinical Medicine-I
+\nRT211\t\t		Regional and Radiological Anatomy-II
+\nRT212\t\t		Conventional Radiological and Clinical Practice
+\nRT213\t\t		Radiological Positioning
+\nRT214\t\t		Computed and Digital Radiography (CR and DR)
+\nRT215\t\t		Radiobiology and Radiation Protection
+\nRT301\t\t		Computed Tomography (CT)
+\nRT302\t\t		Mammography and Special Radiological Techniques
+\nRT303\t\t		Magnetic Resonance Imaging (MRI)
+\nRT304\t\t		General Surgery
+\nRT305\t\t		Interventional Radiology
+\nRT310\t\t		Clinical Medicine-II
+\nRT311\t\t		Radiological and Cross sectional Anatomy
+\nRT312\t\t		Computed Tomography (CT) Procedures and Clinical Practice
+\nRT313\t\t		Magnetic Imaging (MRI) Procedures and Clinical
+\nRT314\t\t		Therapeutic Radiology
+\nMT210\t\t		Biostatistics
+\nSS403\t\t		Research Methodolog
+\nRT401\t\t		Clinical Sonography
+\nRT402\t\t		Angiography and Cardiac Imaging
+\nRT403\t\t		Nuclear Medicine
+\nRT404\t\t		Echocardiography
+\nRT405\t\t		Electrocardiography (ECG)
+\nRT406\t\t		Clinical Pathology and Radiological Presentation
+\nRT414\t\t		Patient care and Management
+\nRT415\t\t		Medical Sociology
+\nRT499\t\t		Project
+\nRT416\t\t		Bio-ethics
+\nRT417\t\t		Bio-entrepreneurship
+" />
+    </LinearLayout>
+
+</ScrollView>

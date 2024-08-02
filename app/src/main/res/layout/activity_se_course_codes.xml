@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SE_CourseCodes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="CS100	Introduction to Computing
+\nCS106\t\t	Introduction to Computer Programming
+\nNS109\t\t	Applied Physics
+\nSS104\t\t	English-I (Comprehension)
+\nSS108\t\t	Islamic Studies/Ethics (for Non-Muslims)
+\nMT112\t\t	Calculus-I
+\nMT221\t\t	Linear Algebra	3+0	None
+\nCS200\t\t	Object Oriented Programming
+\nSS203\t\t	English-II (Communication Skills)
+\nSE242\t\t	Software Engineering
+\nSS118\t\t	Pakistan Studies
+\nCS210\t\t	Data Structures and Algorithms
+\nSE253\t\t	Software Requirement Engineering
+\nSE432\t\t	Human Computer Interaction
+\nSE443\t\t	Web Engineering
+\nSS216\t\t	Intro. to Sociology
+\nCS385\t\t	Database Management Systems
+\nCS313\t\t	Operating Systems Concepts
+\nSE317\t\t	Software Design and Architecture
+\nSS218\t\t	Into. To Psychology
+\nSE350\t\t	Software Construction and Development
+\nMT301\t\t	Probability and Statistics
+\nSE318\t\t	Formal Method in Software Engineering
+\nMG100\t\t	Fundamentals of Accounting
+\nSS401\t\t	Research Methodology and Professional Ethics
+\nMT201\t\t	Discrete Structures
+\nSE321\t\t	Software Quality Engineering
+\nCS321\t\t	Computer Networks
+\nSS211\t\t	English-III (Technical Report Writing)
+\nSE324\t\t	Simulation and Modeling
+\nSE424\t\t	Software Project Management
+\nSE325\t\t	Software Re-Engineering
+\nSE326\t\t	Business Process Engineering
+\nCS499\t\t	Final Project-I
+\nCS390\t\t	Information Security
+\nMG404\t\t	Entrepreneurship
+\nCS499\t\t	Final Project-II
+\nSE401\t\t	Secure Software Development
+\nSE400\t\t	Software Testing
+\nSE300\t\t	Object Oriented Software Engineering
+\nSE402\t\t	Software Metrics
+\nSE450\t\t	Design Patterns
+\nSE312\t\t	Risk Management
+\nSE452\t\t	Advanced Software Engineering
+\nSE310\t\t	Financial Accounting Software
+\nCS414\t\t	Semantic Web
+\nCS407\t\t	e-Commerce/Business
+\nCS217\t\t	Visual Programming
+\nCS375\t\t	Mobile Application Development
+\nCS334\t\t	Big-Data Analytics
+\nCS335\t\t	Cloud Computing
+\nCS337\t\t	Decision Support System
+\nCS339\t\t	Intelligent Agents
+\nCS424\t\t	Machine Learning
+\nCS463\t\t	Artificial Neural Network
+" />
+    </LinearLayout>
+</ScrollView>

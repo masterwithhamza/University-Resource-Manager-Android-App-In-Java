@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DPT_CourseCodes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="DP103	Anatomy—I
+\nDP104\t\t	Physiology-I
+\nDP106\t\t	Kinesiology-I
+\nSS118\t\t	Pakistan Studies
+\nSS104\t\t	English-I (Functional English)
+\nMT210\t\t	Biostatistics-I
+\nDP113\t\t	Anatomy—II
+\nDP114\t\t	Physiology-II
+\nDP116\t\t	Kinesiology-II
+\nSS203\t\t	English-II (Communication Skills)
+\nSS108\t\t	Islamic Studies
+\nMT320\t\t	Biostatistics-II
+\nSS211\t\t	English-III (Technical Writing and Presentation skills)
+\nDP203\t\t	Anatomy—III
+\nDP204\t\t	Physiology-III
+\nDP107\t\t	Biochemistry-I
+\nDP201\t\t	Medical Physics
+\nDP206\t\t	Biomechanics and Ergonomics-I
+\nDP213\t\t	Anatomy—IV
+\nCS100\t\t	Introduction to Computers
+\nDP214\t\t	Biomechanics and Ergonomics—II
+\nDP209\t\t	Exercise Physiology
+\nDP205\t\t	Health and Wellness
+\nDP207\t\t	Biochemistry-II
+\nDP210\t\t	Molecular Biology and Genetics
+\nDP301\t\t	Pathology and Microbiology—I
+\nDP302\t\t	Pharmacology and Therapeutics-I	2+0	None
+\nDP303\t\t	Physical agents and Electrotherapy-I
+\nDP304\t\t	Therapeutic exercise and techniques
+\nDP319\t\t	Supervised clinical practice-I
+\nSS222\t\t	Behavioral Sciences
+\nDP311\t\t	Pathology and Microbiology—II
+\nDP312\t\t	Pharmacology and Therapeutics-II	2+0	DP302
+\nDP313\t\t	Physical agents and Electrotherapy-II
+\nDP315\t\t	Community Medicine and Rehabilitation
+\nDP329\t\t	Supervised clinical practice-II
+\nDP401\t\t	Medicine-I
+\nDP402\t\t	Surgery-I
+\nDP403\t\t	Radiology and Diagnostic Imaging
+\nDP404\t\t	Musculoskeletal Physical Therapy
+\nDP339\t\t	Supervised Clinical Practice-II
+\nDP405\t\t	Evidance Based Practice
+\nDP411\t\t	Medicine-II
+\nDP412\t\t	Surgery-II
+\nDP413\t\t	Neurological Physical Therapy
+\nDP349\t\t	Supervised clinical practice-IV
+\nDP414\t\t	Scientific Inquiry and Research Methodology
+\nDP415\t\t	Emergency Procedures and Primary Care In Physical Therapy
+\nDP435\t\t	Professional Practice (Law. Ethics, Administration)
+\nDP436\t\t	Integumentry Physical Therapy
+\nDP437\t\t	Supervised clinical practice-V
+\nDP431\t\t	Cardiopulmonary Physical Therapy
+\nDP432\t\t	Prosthetics and Orthotics
+\nDP433\t\t	Differential Diagnosis
+\nDP434\t\t	Manual Therapy
+\nDP441\t\t	Obstetric and Gynecological Physical Therapy
+\nDP442\t\t	Paediatric Physical Therapy	2+0	None
+\nDP443\t\t	Geriatric Physical Therapy
+\nDP444\t\t	Sports Phyiscal Therapy
+\nDP419\t\t	Supervised clinical practice-VI
+\nDP449\t\t	Research Project
+" />
+    </LinearLayout>
+</ScrollView>

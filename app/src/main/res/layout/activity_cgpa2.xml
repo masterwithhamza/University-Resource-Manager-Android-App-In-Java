@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cgpa2_activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="#03A9F4"
+                    android:layout_marginRight="40dp"
+                    android:padding="10dp"
+                    android:text="CGPA"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cgpa"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:background="#FF9800"
+                    android:text="Semesters"
+                    android:textColor="#0E0E0D"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="#FF9800"
+                    android:padding="10dp"
+                    android:textColor="#0E0E0D"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:text="SGPA" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:background="#FF9800"
+                    android:text="1st Semester"
+                    android:textColor="#0E0E0D"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/s1"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:hint="SGPA Required"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:background="#FF9800"
+                    android:text="2nd Semester"
+                    android:textColor="#0E0E0D"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/s2"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:hint="SGPA Required"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/gpa"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/round"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="150dp"
+                android:layout_weight="1"
+                android:text="Calculate"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:enabled="false"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

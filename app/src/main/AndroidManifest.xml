@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hrcoder.HRKINGcoderabasynianshub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AbasyniansHub">
+        <activity
+            android:name=".CS208_subject"
+            android:exported="false" />
+        <activity
+            android:name=".UploadPost"
+            android:exported="false" />
+        <activity
+            android:name=".Pharmacy_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".RT_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".HND_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".Civil_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".MLT_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".English_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".EE_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".DPT_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".SE_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".CS_CourseCodes"
+            android:exported="false" />
+        <activity
+            android:name=".bookslibrary"
+            android:exported="false" />
+        <activity
+            android:name=".gradingsystem"
+            android:exported="false" />
+        <activity
+            android:name=".posts"
+            android:exported="false" />
+        <activity
+            android:name=".MT100_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MB437_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN414_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN413_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN412_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN405_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN404_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN403_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN402_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN401_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN316_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN315_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN314_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN313_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN312_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN311_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN306_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN305_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN304_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN303_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN302_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN301_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN207_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN201_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN209_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN208_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN104_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN204_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN205_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN114_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN108_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN107_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN106_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN109_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN105_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN103_subject"
+            android:exported="false" />
+        <activity
+            android:name=".HN102_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT417_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT416_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT415_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT414_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT406_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT405_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT404_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT403_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT402_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT401_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS403_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT314_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT313_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT312_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT311_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT310_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT305_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT304_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT303_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT302_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT301_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT215_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT214_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT213_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT212_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT211_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT210_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT205_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT204_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT203_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT202_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT201_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT113_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT112_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT111_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT103_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT102_subject"
+            android:exported="false" />
+        <activity
+            android:name=".RT101_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS203_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT409_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT408_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT410_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT405_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT404_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT403_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT402_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT312_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT311_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT401_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT309_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT346_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT307_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT306_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT305_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT304_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT210_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT302_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT301_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT216_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT215_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT214_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT213_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT212_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT211_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT220_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT217_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT205_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT204_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT203_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT202_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT201_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT207_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT113_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT112_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT117_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT103_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT102_subject"
+            android:exported="false" />
+        <activity
+            android:name=".LT107_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS221_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG408_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG406_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG404_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG407_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG403_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG402_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG405_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG401_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG312_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG309_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG308_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG310_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG307_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG306_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG304_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG303_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG302_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG208_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG207_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG206_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG204_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG203_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG202_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG201_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG106_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG105_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG104_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG103_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG102_subject"
+            android:exported="false" />
+        <activity
+            android:name=".ENG101_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP349_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP415_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP414_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP413_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP412_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP411_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP405_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP339_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP404_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP403_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP402_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP401_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP329_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP315_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP313_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP312_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP311_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS222_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP319_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP304_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP303_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP302_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP301_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP210_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP207_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP205_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP209_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP214_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP213_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP206_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP201_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP107_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP204_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP203_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT210_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT320_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP116_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP114_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP113_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP106_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP104_subject"
+            android:exported="false" />
+        <activity
+            android:name=".DP103_subject"
+            android:exported="false" />
+        <activity
+            android:name=".followus"
+            android:exported="false" />
+        <activity
+            android:name=".privacy_activity"
+            android:exported="false" />
+        <activity
+            android:name=".aboutus_activity"
+            android:exported="false" />
+        <activity
+            android:name=".moreapps_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MG295_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MG403_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS201_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS204_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MG434_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS115_Subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT116_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT103_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS113_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE424_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE425_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE406_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE411_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE419_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE403_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE330_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE305_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE318_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE306_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE319_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE414_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE317_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE327_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE324_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE320_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE201_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE213_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE214_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE326_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE216_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE314_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE211_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE111_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE226_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE215_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE210_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE116_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CE112_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MG436_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MG435_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE434_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE421_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE312_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE411_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE324_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE322_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE321_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE315_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE311_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE313_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE316_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE302_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE224_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE213_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE223_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT214_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE215_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE222_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT118_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS114_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE116_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT101_subject"
+            android:exported="false" />
+        <activity
+            android:name=".NS111_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE318_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE350_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE326_activity"
+            android:exported="false" />
+        <activity
+            android:name=".SE325_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE324_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE317_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE308_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE424_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE321_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE443_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE432_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE253_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS390_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MG404_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT119_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS401_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS445_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT300_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS211_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT301_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS307_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS321_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS401_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS310_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT201_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS313_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS218_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MG100_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS304_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS385_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS210_activity"
+            android:exported="false" />
+        <activity
+            android:name=".SS216_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT221_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SE242_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS251_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS118_subject"
+            android:exported="false" />
+        <activity
+            android:name=".EE200_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS124_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS200_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT114_subject"
+            android:exported="false" />
+        <activity
+            android:name=".MT112_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS108_subject"
+            android:exported="false" />
+        <activity
+            android:name=".SS104_subject"
+            android:exported="false" />
+        <activity
+            android:name=".NS109_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS106_subject"
+            android:exported="false" />
+        <activity
+            android:name=".CS100_subject"
+            android:exported="false" />
+        <activity
+            android:name=".BSMicrobiology"
+            android:exported="false" />
+        <activity
+            android:name=".BSBiochemistry_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSMath_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSMC_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSPyschology"
+            android:exported="false" />
+        <activity
+            android:name=".BSPharmacy_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSHND_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSRT_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSMLT_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSEnglish_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSDPT_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSEE_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSCivil_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSSE_activity"
+            android:exported="false" />
+        <activity
+            android:name=".BSCS_activity"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa8_activity"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa7_activity"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa6_activity"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa5_activity"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa4_activity"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa3_activity"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa2_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sgpa7_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sgpa6_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sgpa5_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sgpa4_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sgpa3_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sgpa2_activity"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sgpa_activity"
+            android:exported="false" />
+        <activity
+            android:name=".calculator_activity"
+            android:exported="false" />
+        <activity
+            android:name=".selectgpatype_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".splash"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

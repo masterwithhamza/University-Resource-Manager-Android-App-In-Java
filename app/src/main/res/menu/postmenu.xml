@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Upload Photo"
+        android:id="@+id/upload"
+        android:icon="@drawable/ic_baseline_add_photo_alternate_24"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Upload photo"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="My Profile"
+        android:id="@+id/profile1"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="About Us"
+        android:id="@+id/about"
+        app:showAsAction="never"
+        />
+
+
+</menu>

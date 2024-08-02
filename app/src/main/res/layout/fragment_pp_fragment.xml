@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF6EC"
+    tools:context=".gpa_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <com.smarteist.autoimageslider.SliderView
+                    android:layout_width="700dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:id="@+id/image_slider"
+                    app:sliderAnimationDuration="800"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="800"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="@color/design_default_color_error"
+                    app:sliderIndicatorUnselectedColor="@color/white"
+                    app:sliderScrollTimeInSec="2"
+                    app:sliderStartAutoCycle="true">
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </RelativeLayout>
+
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:columnCount="1"
+                app:rowCount="20">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:background="#F44336"
+                    android:elevation="50dp"
+                    app:cardBackgroundColor="#BFBCBC"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="0"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:background="@drawable/ppback"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="New"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/csdept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Computer Science"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="#BFBCBC"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:background="@drawable/ppback"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="New"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/sedept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Software Engineering"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:cardBackgroundColor="#BFBCBC"
+                    app:layout_row="2"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:background="@drawable/ppback"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="New"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/eedept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Electrical Engineering"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="3"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:background="@drawable/ppback"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="New"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/civildept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Civil Engineering"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="4"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:background="@drawable/ppback"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="New"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/dptdept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Doctor of physical therapry"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="5"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:background="@drawable/ppback"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="New"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/englishdept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="BS English"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="6"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:background="@drawable/ppback"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="New"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/mltdept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Medical Lab Technology"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="7"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:background="@drawable/ppback"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="New"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/radiologydept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Radiology Technology"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:background="#F4E7E7"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="8"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:background="@drawable/ppback"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="New"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/nutritiondept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/human_nutrition_dietetics"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardBackgroundColor="#F4E7E7"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="9"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="Coming Soon"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/pharmacydept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Doctor of Pharmacy"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#F4E7E7"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="10"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="Coming Soon"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/psychologydept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="BS Psychology"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:cardBackgroundColor="#F4E7E7"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="11"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="Coming Soon"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/masscomdept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="BS Mass Communication"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="#F4E7E7"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="12"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="Coming Soon"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/mathdept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="BS Mathematics"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardBackgroundColor="#F4E7E7"
+                    app:cardCornerRadius="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="13"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="Coming Soon"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/biochemistry" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="BS Biochemistry"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    android:elevation="50dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardBackgroundColor="#F4E7E7"
+                    app:cardUseCompatPadding="true"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill"
+                    app:layout_row="14"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:background="@drawable/round"
+                            android:text="Coming Soon"
+                            android:layout_gravity="start"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <ImageView
+
+                            android:layout_width="200dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/microbiologydept" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="BS Microbiology"
+                            android:textColor="#0E0E0E"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

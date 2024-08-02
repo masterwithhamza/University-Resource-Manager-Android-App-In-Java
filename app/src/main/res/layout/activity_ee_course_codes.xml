@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EE_CourseCodes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="NS111	Applied Physics
+\nSS108\t\t	Islamic Studies / Ethics (for non Muslim students)
+\nCS100\t\t	Introduction to Computing
+\nSS104\t\t	English-I (Comprehension)
+\nMT101\t\t	Calculus and Analytical Geometry(Math-1)
+\nEE112\t\t	Workshop Practice
+\nEE121\t\t	Engineering Drawing
+\nEE116\t\t	Linear Circuit Analysis-I
+\nCS114\t\t	Programming Fundamentals
+\nMT118\t\t	Differential Equations
+\nSS124\t\t	English–II (Communication Skills)
+\nEE200\t\t	Digital Logic Design
+\nEE222\t\t	Basic Civil Engineering	3+0	None
+\nMT221\t\t	Linear Algebra
+\nEE215\t\t	Electronic Devices and Circuits
+\nMT214\t\t	Complex Variable and Transforms
+\nEE223\t\t	Signals and System
+\nEE213\t\t	Electrical Network Analysis
+\nCS210\t\t	Data Structure and Algorithm
+\nEE224\t\t	Electronic Circuit Design
+\nSS118\t\t	Pakistan Studies
+\nEE302\t\t	Embedded Systems
+\nEE316\t\t	Digital Signal Processing
+\nEE313\t\t	Probability Methods in Engineering
+\nEE311\t\t	Electromagnetic Field Theory
+\nEE315\t\t	Electrical Machines
+\nEE321\t\t	Communication System
+\nEE322\t\t	Linear Control Systems
+\nEE324\t\t	Measurement and Instrumentation
+\nEE411\t\t	Power Electronics
+\nSS211\t\t	English-III (Technical Report Writing)
+\nEE312\t\t	Applied Thermodynamics
+\nEE498\t\t	Senior Design Project–I
+\nEE421\t\t	Computer Communication Networks
+\nEE434\t\t	Power System Analysis
+\nMG435\t\t	Engineering Economics and Management
+\nEE499\t\t	Senior Design Project–II
+\nMG436\t\t	Entrepreneurship
+\nEE412\t\t	Digital Electronics
+\nEE444\t\t	Artificial Intelligence
+\nEE413\t\t	Solid State Devices
+\nEE422\t\t	Digital Communication
+\nEE423\t\t	Wave Propagation and Antennas
+\nEE424\t\t	Wireless and Mobile Communication
+\nEE432\t\t	Power Generation
+\nEE433\t\t	Power Distribution and Utilization
+\nEE441\t\t	Computer Architecture
+\nEE443\t\t	Operating Systems
+\nEE442\t\t	Digital Design
+" />
+    </LinearLayout>
+</ScrollView>

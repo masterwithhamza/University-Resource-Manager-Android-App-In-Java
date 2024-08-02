@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Civil_CourseCodes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="CE112\t\t	Civil Engineering Materials
+\nCE116\t\t	Basic Electrical and Mechanical Engineering
+\nCE210\t\t	Civil Engineering Drawing
+\nSS113\t\t	Functional English
+\nMT103\t\t	Applied Calculus (Math-1)
+\nSS118\t\t	Pakistan Studies
+\nCE215\t\t	Engineering Survey-I
+\nCE226\t\t	Engineering Geology
+\nSS108\t\t	Islamic Studies / Ethics
+\nCE111\t\t	Engineering Mechanics
+\nMT116\t\t	Applied Differential Equations (Math-2)
+\nCS115\t\t	Computing and Programming
+\nCE211\t\t	Civil Engineering drawing and Graphics
+\nCE314\t\t	Advance Engineering Surveying
+\nCE216\t\t	Mechanics of Solids-I
+\nMG434\t\t	Engineering Economics
+\nCE326\t\t	Construction Engineering
+\nCE214\t\t	Structural Analysis-I
+\nCE213\t\t	Soil Mechanics
+\nCE201\t\t	Fluid Mechanics
+\nMT300\t\t	Numerical Analysis
+\nMT301\t\t	Probability and Statistics
+\nCE301\t\t	Advance Fluid Mechanics
+\nSS204\t\t	Business Communication
+\nSS201\t\t	Professional Ethics
+\nCE320\t\t	Reinforced Concrete Design-I
+\nCE324\t\t	Quantity and Cost Estimation
+\nCE327\t\t	Construction Management
+\nCE317\t\t	Mechanics of Solids-II
+\nCE414\t\t	Reinforced Concrete Design-II
+\nCE319\t\t	Transportation Engineering-I
+\nCE306\t\t	Engineering Hydrology
+\nCE318\t\t	Structural Analysis-II
+\nCE305\t\t	Environmental Engineering-I
+\nMG403\t\t	Mgmt Sc Elective (Entrepreneurship)
+\nCE330\t\t	Architecture and Town Planning
+\nCE403\t\t	SGeoTech and Foundation Engg
+\nCE419\t\t	Transportation Engineering-II
+\nCE498\t\t	Civil Engineering Project–I
+\nCE411\t\t	Geo-Informatics
+\nCE406\t\t	Environmental Engineering-II
+\nCE425\t\t	Steel Structures
+\nCE424\t\t	Hydraulics and Irrigation Engineering
+\nMG295\t\t	Social Science Elective (OB)
+\nCE499\t\t	Civil Engineering Project–II
+" />
+    </LinearLayout>
+</ScrollView>

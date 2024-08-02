@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pharmacy_CourseCodes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="SS103\t\t	English-A (Functional English)
+\nPD101\t\t	Pharmaceutical Chemistry-IA (Organic)
+\nPD102\t\t	Pharmaceutical Chemistry-IIA (Biochemistry)
+\nPD103\t\t	Pharmaceutics-IA (Physical Pharmacy)
+\nPD104\t\t	Physiology-A
+\nPD105\t\t	Anatomy and Histology
+\nPD123\t\t	Pharmaceutical Chemistry-IB (Organic)
+\nSS124\t\t	English-B (Communication and Writing skills)
+\nPD126\t\t	Pharmaceutical Chemistry-IIB (Biochemistry)
+\nPD127\t\t	Pharmaceutics-IB (Physical Pharmacy)
+\nPD128\t\t	Physiology-B
+\nSS108\t\t	Islamic Studies
+\nPD201\t\t	Pharmaceutics-IIA (Dosage Forms Science)
+\nPD202\t\t	Pharmacology and Therapeutics-IA
+\nPD203\t\t	Pharmacognosy-IA (Basic)
+\nPD204\t\t	Pharmaceutics-IIIA (Pharmaceutical Microbiology and Immunology)
+\nMT211\t\t	Pharmacy Practice-IB (Pharmaceutical Mathematics)
+\nSS118\t\t	Pakistan Studies
+\nPD221\t\t	Pharmaceutics-IIB (Dosage Forms Science)
+\nPD222\t\t	Pharmacology and Therapeutics-IB
+\nPD223\t\t	Pharmacognosy-IB (Basic)
+\nPD224\t\t	Pharmaceutics-IIIB (Pharmaceutical Microbiology and Immunology)
+\nMT226\t\t	Pharmacy Practice-III (Bio-statistics)
+\nPD302\t\t	Pharmacology and Therapeutics-IIA
+\nPD303\t\t	Pharmacognosy-IIA (Advanced)
+\nPD304\t\t	Pharmaceutical Chemistry-IIIA (Pharmaceutical Analysis)
+\nPD305\t\t	Pharmacy Practice-IIA (Dispensing Pharmacy)
+\nPD301\t\t	Pathology
+\nPD325\t\t	Pharmacology and Therapeutics-IIB
+\nPD326\t\t	Pharmacognosy-IIB (Advanced)
+\nPD327\t\t	Pharmaceutical Chemistry-IIIB (Pharmaceutical Analysis)
+\nPD328\t\t	Pharmacy Practice-IIB (Community, Social and Administrative Pharmacy)
+\nPD329\t\t	Pharmacy Practice-III (Computer and its Applications in Pharmacy)
+\nPD330\t\t	Pharmacy Practice-IVA (Hospital Pharmacy-I)
+\nPD331\t\t	Pharmacy Practice-VA (Clinical Pharmacy-I)
+\nPD332\t\t	Pharmaceutics-IVA (Industrial Pharmacy-I)
+\nPD334\t\t	Pharmaceutics-VA (Biopharmaceutics and Pharmacokinetics-I)
+\nPD335\t\t	Pharmaceutics-VIA (Pharmaceutical Quality Management-I)
+\nPD401\t\t	Pharmacy Practice-IVB (Hospital Pharmacy-II)
+\nPD402\t\t	Pharmacy Practice-VB (Clinical Pharmacy-II)
+\nPD403\t\t	Pharmaceutics-IVB (Industrial Pharmacy-II)
+\nPD404\t\t	Pharmaceutics-VB (Biopharmaceutics and Pharmacokinetics-II)
+\nPD405\t\t	Pharmaceutics-VIB (Pharmaceutical Quality Management-II)
+\nPD431\t\t	Pharmacy Practice-VIA (Advanced Clinical Pharmacy-I)
+\nPD432\t\t	Pharmaceutics-VIIA (Pharmaceutical Technology-I)
+\nPD433\t\t	Pharmacy Practice-VIIA (Forensic Pharmacy- I)
+\nPD434\t\t	Pharmacy Practice-VIIIA (Pharmaceutical Management and Marketing-I)
+\nPD430\t\t	Pharmaceutical Chemistry-IVA (Medicinal Chemistry-I
+\nPD441\t\t	Pharmacy Practice-VIB (Advanced Clinical Pharmacy-II)
+\nPD442\t\t	Pharmaceutics- VIIB (Pharmaceutical Technology-II)
+\nPD443\t\t	Pharmacy Practice-VIIB (Forensic Pharmacy-II)
+\nPD444\t\t	Pharmacy Practice-VIIIB (Pharmaceutical Management and Marketing-II)
+\nPD440\t\t	Pharmaceutical Chemistry-IVB (Medicinal Chemistry-II)
+" />
+    </LinearLayout>
+
+</ScrollView>

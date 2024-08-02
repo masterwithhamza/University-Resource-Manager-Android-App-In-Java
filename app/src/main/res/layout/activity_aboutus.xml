@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF6EC"
+    tools:context=".aboutus_activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView292"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:paddingLeft="10dp"
+                android:text="               Hi"
+                android:textColor="#090404"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView293"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:paddingLeft="10dp"
+                android:text="     I'm Hamza"
+                android:textColor="#090404"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView294"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:paddingLeft="10dp"
+                android:text="       Rehman"
+                android:textColor="#090404"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/image99" />
+
+            <TextView
+                android:id="@+id/textView296"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="124dp"
+                android:layout_marginLeft="124dp"
+                android:background="#FFEB3B"
+                android:paddingLeft="10dp"
+                android:text="More About Us "
+                android:textColor="#090404"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView297"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:textStyle="bold"
+                android:text="Hi, My name is Hamza Rehman. I am from Pakistan , Mianwali. Currently I am studying at Abasyn University in BS Computer Science.I am also working as a Android Developer."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:text="Our objective is to design and create the most elegant, functional,powerful,attractive and multi-stylish mobile application that re-innovate functionality. We comprehend that android is the fastest developing mobile platform and, because of which ,the interest for android applications' development is relentlessly expanding. This is a leading android application development incorporation that renders qualitative development solutions to enterprises across the globe. we have demonstrated mastery in application development that guarantees performance and productivity to your versatile operations bt harnessing our maximum intricate potential. We have a technically-sound team of android experts that have polished,best in class skills and certified expertise in mobile application development for the android platform. Our software engineers are dedicatedly focused on creating adaptable and powerful android application and also porting them to mobile platforms.   "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

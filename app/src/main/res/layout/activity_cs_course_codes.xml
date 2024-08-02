@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CS_CourseCodes">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="CS100\t\t	Introduction to Computing
+\nCS106\t\t	Introduction to Computer Programming
+\nNS109\t\t	Applied Physics
+\nSS104\t\t	English-I (Comprehension)
+\nSS108\t\t	Islamic Studies/Ethics
+\nMT112\t\t	Calculus-I
+\nMT114\t\t	Calculus-II
+\nCS200\t\t	Object Oriented Programming
+\nSS124\t\t	English-II (Communication Skills)
+\nEE200\t\t	Digital Logic Design
+\nSS118\t\t	Pakistan Studies
+\nCS251\t\t	Computer Organization and Assembly Language
+\nSE242\t\t	Software Engineering
+\nMT221\t\t	Linear Algebra
+\nSS216\t\t	Intro. to Sociology
+\nCS210\t\t	Data Structures and Algorithms
+\nCS385\t\t	Database Management Systems
+\nCS304\t\t	Design and Analysis of Algorithms
+\nMG100\t\t	Fundamental of Accounting
+\nSS218\t\t	Into. To Psychology
+\nCS313\t\t	Operating System Concepts
+\nMT201\t\t	Discrete Structure
+\nCS310\t\t	Theory of Automata
+\nSS401\t\t	Research Methodology and Professional Ethics
+\nCS321\t\t	Computer Networks
+\nCS307\t\t	Artificial Intelligence
+\nMT301\t\t	Statistics and Probability
+\nSS211\t\t	English-III (Technical Report Writing)
+\nMT300\t\t	Numerical Computing
+\nCS445\t\t	Distributed and Parallel Computing
+\nCS401\t\t	Compiler Construction
+\nMT119\t\t	Graph Theory
+\nCS499\t\t	Final Project-I
+\nMG404\t\t	Entrepreneurship
+\nCS390\t\t	Information Security
+\nCS499\t\t	Final Project-II
+\nCS442\t\t	Advanced Database Programming
+\nCS309\t\t	Distributed Database Systems
+\nCS315\t\t	Data Warehousing
+\nCS316\t\t	Data Mining
+\nCS433\t\t	Graph Databases
+\nCS407\t\t	e-Commerce/Business
+\nCS428\t\t	Network Security and Cryptography
+\nCS318\t\t	Network System Management
+\nCS409\t\t	Ad-hoc Networks
+\nCS463\t\t	Artificial Neural Network
+\nCS494\t\t	Special Topics in Computer Science
+\nCS443\t\t	Digital Image Processing
+\nCS208\t\t	Modern Programming Languages
+\nCS410\t\t	Fuzzy Logic
+\nCS339\t\t	Intelligent Agents
+" />
+</LinearLayout>
+</ScrollView>

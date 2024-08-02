@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538200429166",
+    "project_id": "abasynaian-hub786",
+    "storage_bucket": "abasynaian-hub786.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538200429166:android:a85f1af648a079cc114c7f",
+        "android_client_info": {
+          "package_name": "com.hrcoder.HRKINGcoderabasynianshub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538200429166-jdi67cbk1hb95i81ltipvlf9lr68qiem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQQ2LSIh3tqECcjHn9yL5qv5j60ZHVQQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538200429166-jdi67cbk1hb95i81ltipvlf9lr68qiem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
